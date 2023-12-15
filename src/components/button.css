@@ -1,0 +1,21 @@
+button{
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--terciary);
+    font-size: 2rem;
+    aspect-ratio: 1/1;
+    color: var(--text);
+}
+button:active{
+    transform: scale(1.02);
+}
+button.gray{
+    background-color: var(--secondary);
+}
+button.number{
+    box-shadow: var(--box-shadow);
+}
+button.operation{
+    background-color: var(--primary);
+    color: white;
+}

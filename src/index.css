@@ -1,0 +1,39 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  --backgr: black;
+  --backgr-cal: rgb(206, 206, 206);
+  --text: black;
+  --primary: #4b5efc;
+  --secondary: #b6b6b6;
+  --terciary: white;
+
+  --box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+h1{
+  color: var(--text);
+}
+body {
+  background-color: var(--backgr);
+  color: var(--text);
+  transition: 700ms;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+#root {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+[data-theme="dark"] {
+  --backgr: #f1f2f3;
+  --backgr-cal: #17171c;
+  --text: rgb(255, 255, 255);
+  --primary: #4b5efc;
+  --secondary: #4e505f;
+  --terciary: #2e2f38;
+}
